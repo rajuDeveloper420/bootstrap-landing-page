@@ -1,0 +1,300 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family: sans-serif;
+  /* overflow: hidden; */
+  user-select: none;
+}
+
+
+
+/* Top bar Css */
+.top-bar{
+  color: #fff;
+}
+
+.top-left{
+  background-color:#142c4b;
+}
+.top-left p{
+  padding: 15px 10px;
+}
+
+.top-right{
+  background-color:#0082ff;
+
+}
+.top-right p{
+  padding: 15px 20px;
+}
+
+/* Manu Css */
+nav .logo{
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 70px;
+  padding-left: 145px;
+}
+nav{
+  height: 70px;
+  background: #fff;
+  color: #000;
+}
+nav ul{
+  float: right;
+  margin-right: 65px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: #000;
+  display: block;
+  padding: 0 15px;
+  line-height: 70px;
+  font-size: 17px;
+  transition: .5s;
+}
+nav ul li a:hover,
+nav ul li a.active{
+  color: #23dbdb;
+}
+nav ul ul{
+  position: absolute;
+  top: 85px;
+  border-top: 3px solid #23dbdb;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+nav ul ul li{
+  width: 150px;
+  display: list-item;
+  position: relative;
+  border: 1px solid #042331;
+  border-top: none;
+}
+nav ul ul li a{
+  line-height: 50px;
+}
+nav ul ul ul{
+  border-top: none;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+nav ul ul li a i{
+  margin-left: 45px;
+}
+
+.login_here{
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+
+/* Parking Section CSS */
+
+.parking_section{
+  background: #4c4c4c;
+  background-position: center;
+  color: #fff;
+  padding: 50px 0px 150px;
+}
+
+.safe_hourly_monthly_btn{
+  background: #1f324b;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.safe_parking h3{
+  font-size: 37px;
+  font-weight: 600;
+}
+
+.safe_parking p{
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.safe_hourly_monthly_btn a{
+  flex: 50%;
+  text-align: center;
+   padding: 15px 5px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 600;
+}
+.hourly_daily{
+  border-bottom: 1px solid #0081ff;
+}
+
+.address{
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.address label{
+  font-size: 16px;
+  font-weight: 400;
+  color: #b8b8b8;
+  margin-bottom: 0px;
+}
+.address input{
+  border: none;
+}
+.date_field{
+  flex: 50%;
+}
+
+.address .fa-chevron-down{
+  float: right;
+  margin-right: 20px;
+  color: #0081ff;
+  font-size: 16px;
+}
+
+.swoing_parking_space{
+  background: #142c4b;
+  border-radius: 5px;
+}
+
+.swoing_parking_space a{
+  font-size: 19px;
+  font-weight: 600;
+}
+
+
+/* Service Css */
+
+.service_section{
+  width: 100%;
+  min-height: 300px;
+  background: #fff;
+  padding: 150px 0px;
+}
+
+.service_box{
+    min-height: 235px;
+    padding: 30px 20px;
+    background: #f7f7f9;
+    margin-bottom: 20px;
+}
+.service_box h4{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.service_box h5{
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.service_box p{
+  color: grey;
+  font-size: 15px;
+  font-weight: 500;
+}
+.service_box button{
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Parking made css */
+
+.parking_made_box{
+    padding: 30px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    color: #000;
+    min-height: 200px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.parking_made_box h4{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.parking_made_box a{
+  border: 1px solid #fff;
+  padding: 15px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.parking_made_box h5{
+  margin-top: 20px;
+}
+.parking_made {
+    position: absolute;
+    top: 685px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+/* Airport Parking Css */
+.airport_parking{
+  width: 100%;
+  background: #f8f8f9;
+  min-height: 300px;
+  padding: 70px 0px;
+}
+
+.airport_parking_left_box{
+  background: #c0c0c0;
+  min-height: 350px;
+}
+
+.airport_parking_right_box{
+  background: #fff;
+  color: #000;
+  min-height: 350px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.airport_table{
+  width: 90%;
+
+}
+
+.airport_table tr{
+  border-bottom: 1px dashed #000;
+  padding: 20px;
+  border-collapse:separate; 
+  border-spacing: 0 1em;
+}
+
+tr td {
+  padding-top: 10px; 
+  padding-bottom:10px;
+  padding-right: 10px;
+}
+.airport_parking_right_box button{
+  
+}
